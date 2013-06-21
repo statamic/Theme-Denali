@@ -1,0 +1,85 @@
+/*  Denali Theme by Jack McDade  */
+
+@import url('normalize.css');
+
+body { font-family: 'PT Serif', serif; font-size:16px; color:#43412b; background:#f3f2e8; border-top:10px solid #000;}
+
+h1 { color:#43412b; font-size:36px; line-height:36px; margin:0 0 10px; padding-bottom:5px; font-weight:normal; }
+h2, h3, h4, h5 {margin-bottom:.5em; font-weight:normal;}
+h2 {font-size:28px; line-height:32px; }
+h3 {font-size:21px; line-height:1.4;}
+h6 {color:#b2a890; text-transform:uppercase; margin-bottom:5px; font-weight: normal; }
+h6 a:hover {color:#000; text-decoration: none;}
+p {font-size:14px; line-height:1.6em; margin:0 0 1em;}
+a {color:#bf1d2d;}
+a:hover {text-decoration:none;}
+li {line-height:21px; margin-left:15px;}
+dt, dd {line-height:21px; padding:5px 0;}
+
+blockquote, blockquote p { font-size:28px; font-style:italic; padding:25px 0; color:#827557;}
+
+section {margin:75px 0;}
+
+.container {}
+.block {background:#fff; border:1px solid #d8d1c0; border-radius:6px; margin-bottom:50px; padding:20px 20px 5px 20px;}
+
+#footer { margin:0 300px 50px; padding-top:15px; text-align:center; border-top:1px dashed #d8d1c0;}
+#footer p { color:#888; font-size:12px; line-height:8px; margin:10px 0 5px;}
+#footer p.faint, #footer p.faint a {color:#c2c2c2;}
+#footer p.faint a:hover {text-decoration:none; color:#aaa;}
+#footer a.author {text-decoration:uppercase;}
+#footer-mark {opacity:.4; -webkit-transition:opacity linear .1s;}
+a:hover #footer-mark {opacity:1;}
+
+.site-name a {font-size:22px; line-height:1.25; color:#000;}
+.sidebar-item {border-top:1px dashed #d8d1c0; padding:15px 0; }
+.sidebar-item p {font-size:12px; color:#b2a890;}
+.sidebar-item p a {color:#000;}
+
+.nav {display:block; margin:0 0 25px;}
+.nav li { list-style:none; margin:0;}
+.nav li a { text-decoration:none; font-size:14px; display:block;}
+.nav li ul {margin:0 0 0px 15px;}
+.nav li ul li a {font-size:13px; color:#000;}
+.nav li a.current, .nav li a:hover { color:#000; }
+.nav li ul li a.current, .nav li ul li a:hover {color:#b2a890;}
+
+.entry {padding-bottom:25px;}
+.entry img {margin-bottom:15px;}
+.entry a:hover {text-decoration:none; color:#000;}
+
+.block header{*zoom:1; border-bottom:1px dashed #d8d1c0; margin-bottom:25px;}
+.block header:before,.block header:after{display:table;content:"";}
+.block header:after{clear:both;}
+
+.entries .entry:last-child {border-bottom:0; margin-bottom:0; }
+.entry-meta {color:#787770; font-style:italic; margin-bottom:0; padding-top:20px; border-top: 1px dashed #d8d1c0;}
+.entry-title {float:left;}
+.entry-date {font-style:italic; margin-bottom:10px; float:right; color:#b2a890; line-height:28px;}
+
+.event {/*border-bottom:1px solid #d8d1c0;*/ margin-bottom:35px; padding-bottom:20px; min-height:75px;}
+.event-date {float:left; width:40px; background:#000; color:#fff; padding:5px; text-align:center; margin-bottom:10px;}
+.event-date .month {color:#ccc; display:block; font-size:16px; text-transform: uppercase; margin-bottom:6px;}
+.event-date .day {font-size:36px; display: block; margin-bottom:5px;}
+.event-date .year {color:#ccc; font-size:16px;}
+.event-details {margin-left:75px;}
+.event-title {margin-bottom:5px;}
+
+.gallery-thumbs {
+  list-style: none;
+  margin: 0;
+}
+.gallery-thumbs li {
+  float:left;
+  margin: 14px 28px 14px 5px;
+}
+.gallery-thumbs li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.pagination {text-align:center; margin-top:25px;}
+
+.video {margin-bottom:25px;}
+.center {text-align:center;}
+
+.map {width:100%;height:28em; margin-bottom: 1em;}

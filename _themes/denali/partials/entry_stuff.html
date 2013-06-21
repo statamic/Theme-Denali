@@ -1,0 +1,12 @@
+<div class="block entry">
+  <header>
+    <h2 class="entry-title"><a href="{{ url }}">{{ title }}</a></h2>
+    <p class="entry-date"> {{ datestamp format="F jS, Y" }}</p>
+  </header>
+  {{ content }}
+
+  {{ if categories }}
+  <p class="entry-meta"> Filed under {{ categories_url_list }}.</p>
+  {{ endif }}
+
+</div>

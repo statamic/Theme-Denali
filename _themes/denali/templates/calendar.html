@@ -1,0 +1,25 @@
+<div class="block">
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+  {{ content }}
+</div>
+{{ entries:listing show_future="yes" show_past="no" folder="calendar" sort_dir="asc" }}
+{{ if no_results }}
+<div class="event block">
+  <h3>No events on the horizon.</h3>
+</div>
+{{ else }}
+ <div class="event block">
+    <div class="event-date">
+      <span class="month"> {{ date format="M" }}</span>
+      <span class="day"> {{ date format="j" }}</span>
+      <span class="year"> {{ date format="Y" }}</span>
+    </div>
+    <div class="event-details">
+      <h3 class="event-title">{{ title }}</h3>
+      {{ content }}
+    </div>
+  </div>
+{{ endif }}
+{{ /entries:listing }}

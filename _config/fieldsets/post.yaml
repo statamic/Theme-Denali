@@ -1,0 +1,10 @@
+fields:
+  status:
+    type: status
+  categories:
+    display: Categories
+    required: false
+    default:
+    type: tags
+
+hide: true

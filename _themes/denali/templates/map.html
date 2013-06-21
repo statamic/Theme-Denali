@@ -1,0 +1,14 @@
+<div class="block">
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+
+  {{ content }}
+    
+  {{ entries:map folder="camp-spots" locate_with="where" center_point="44.33,-68.21" zoom="15" }}
+    {{ pop_up }}
+       <h2>{{ title }}</h2>
+       <p>{{ comment }}</p>
+    {{ /pop_up }}
+  {{ /entries:map }}
+</div>

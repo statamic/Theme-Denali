@@ -1,0 +1,19 @@
+<div class="block">
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <div class="form-block">
+  {{ raven:form formset="contact" }}
+
+    <input type="text" name="name" value="Batman" /><br><br>
+    <input type="email" name="email" value="batman@example.com" /><br><br>
+    <input type="text" name="website" value="http://batman.com" /><br><br>
+    <input type="text" name="zipcode" value="12345" /><br><br>
+
+    <input type="text" name="kill" value="This field will be removed" /><br><br>
+    <input type="submit" value="Submit" />
+
+  {{ /raven:form }}
+  </div>
+</div>

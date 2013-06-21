@@ -1,0 +1,21 @@
+title: Camp Spot
+
+fields:
+  title:
+    instructions: These are instructions.
+
+  where:
+    display: Spot
+    type: location
+
+  comment:
+    type: textarea
+    display: Comment
+    instructions:
+      below: A little about the camp spot.
+
+  content:
+    display: Page Content
+    required: false
+    default:
+    type: hidden

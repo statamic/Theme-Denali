@@ -1,0 +1,31 @@
+<div class="block entry">
+  <header>
+    <h2 class="entry-title">{{ title }}</h2>
+    <p class="entry-date"> {{ datestamp format="F jS, Y" }}</p>
+  </header>
+  
+  {{ content }}
+  
+  {{ if categories }}
+  <p class="entry-meta"> Filed under {{ categories_url_list }}.</p>
+  {{ endif }}
+</div>
+{{ entries:listing folder="blog" conditions="categories:{ categories_option_list },url:not {page_url}" limit="3" sort_by="random" }}
+{{ if total_results }}
+  {{ if first }}
+  <div class="block">
+    <h3>Related Entries</h3>
+  {{ endif }}
+    <p><a href="{{ url }}">{{ title }}</a></p>
+  {{ if last }}
+  </div>
+  {{ endif }}
+{{ endif }}
+{{ /entries:listing }}
+
+{{ if show_comments }}
+<div class="block">
+  <h3>Leave Your Comments</h3>
+  {{ disqus:comments account="{ disqus_account }" }}
+</div>
+{{ endif }}

@@ -1,0 +1,13 @@
+---
+title: Spear Fishing
+status: live
+_template: page
+_fieldset: page
+---
+### I can teach you spear fish. And now for some *Call of the Wild*:
+
+And so it went, the inexorable elimination of the superfluous. Mercedes cried when her clothes-bags were dumped on the ground and article after article was thrown out. She cried in general, and she cried in particular over each discarded thing. She clasped hands about knees, rocking back and forth broken-heartedly. She averred she would not go an inch, not for a dozen Charleses. She appealed to everybody and to everything, finally wiping her eyes and proceeding to cast out even articles of apparel that were imperative necessaries. And in her zeal, when she had finished with her own, she attacked the belongings of her men and went through them like a tornado.
+
+This accomplished, the outfit, though cut in half, was still a formidable bulk. Charles and Hal went out in the evening and bought six Outside dogs. These, added to the six of the original team, and Teek and Koona, the huskies obtained at the Rink Rapids on the record trip, brought the team up to fourteen. But the Outside dogs, though practically broken in since their landing, did not amount to much. Three were short-haired pointers, one was a Newfoundland, and the other two were mongrels of indeterminate breed. They did not seem to know anything, these newcomers. Buck and his comrades looked upon them with disgust, and though he speedily taught them their places and what not to do, he could not teach them what to do. They did not take kindly to trace and trail. With the exception of the two mongrels, they were bewildered and spirit-broken by the strange savage environment in which they found themselves and by the ill treatment they had received. The two mongrels were without spirit at all; bones were the only things breakable about them.
+
+With the newcomers hopeless and forlorn, and the old team worn out by twenty-five hundred miles of continuous trail, the outlook was anything but bright. The two men, however, were quite cheerful. And they were proud, too. They were doing the thing in style, with fourteen dogs. They had seen other sleds depart over the Pass for Dawson, or come in from Dawson, but never had they seen a sled with so many as fourteen dogs. In the nature of Arctic travel there was a reason why fourteen dogs should not drag one sled, and that was that one sled could not carry the food for fourteen dogs. But Charles and Hal did not know this. They had worked the trip out with a pencil, so much to a dog, so many dogs, so many days, Q.E.D. Mercedes looked over their shoulders and nodded comprehensively, it was all so very simple.
